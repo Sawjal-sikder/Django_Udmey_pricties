@@ -1,0 +1,1 @@
+# Django_Udmey_pricties
