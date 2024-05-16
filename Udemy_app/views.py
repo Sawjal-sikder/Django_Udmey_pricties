@@ -1,4 +1,4 @@
-from django.http import HttpResponse, HttpResponseNotFound
+from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
 
 
 from django.shortcuts import render
@@ -24,7 +24,12 @@ monthly_chalengers = {
 # Create your views here.
 
 def monthly_chart_by_number(request, month):
-    return HttpResponse(month)
+    months = list(monthly_chalengers.keys())
+    if month  > len(months):
+        return HttpResponseNotFound(f"{month} is incorrect in chart")
+    else:
+        redrect_month = months[month - 1]
+        return HttpResponseRedirect("" + redrect_month)
 
 
 def monthly_chart(request, month):
