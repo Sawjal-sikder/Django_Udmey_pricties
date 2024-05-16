@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01450815-d9d6-4fb7-afcf-b9a924ccf708" name="Changes" comment="005 Adding More Views &amp; URLs">
+    <list default="true" id="01450815-d9d6-4fb7-afcf-b9a924ccf708" name="Changes" comment="006 Dynamic Path Segments &amp; Captured Values">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_app/views.py" afterDir="false" />
@@ -15,6 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -75,7 +76,7 @@
       <workItem from="1715714891668" duration="84000" />
       <workItem from="1715715292081" duration="229000" />
       <workItem from="1715789701697" duration="652000" />
-      <workItem from="1715883018182" duration="2104000" />
+      <workItem from="1715883018182" duration="2818000" />
     </task>
     <task id="LOCAL-00001" summary="03 - URLs &amp; Views ( 004 Creating a First View &amp; URL )">
       <option name="closed" value="true" />
@@ -101,7 +102,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715883611468</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="006 Dynamic Path Segments &amp; Captured Values">
+      <option name="closed" value="true" />
+      <created>1715885282535</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715885282535</updated>
+    </task>
+    <task id="LOCAL-00005" summary="006 Dynamic Path Segments &amp; Captured Values">
+      <option name="closed" value="true" />
+      <created>1715885415229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715885415229</updated>
+    </task>
+    <task id="LOCAL-00006" summary="006 Dynamic Path Segments &amp; Captured Values">
+      <option name="closed" value="true" />
+      <created>1715885466966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715885466966</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +147,7 @@
     <MESSAGE value="03 - URLs &amp; Views ( 004 Creating a First View &amp; URL )" />
     <MESSAGE value="005 Adding More Views &amp; URLs" />
     <MESSAGE value="2nd commit out of env" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd commit out of env" />
+    <MESSAGE value="006 Dynamic Path Segments &amp; Captured Values" />
+    <option name="LAST_COMMIT_MESSAGE" value="006 Dynamic Path Segments &amp; Captured Values" />
   </component>
 </project>

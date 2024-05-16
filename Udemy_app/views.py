@@ -3,6 +3,11 @@ from django.http import HttpResponse, HttpResponseNotFound
 from django.shortcuts import render
 
 # Create your views here.
+
+def monthly_chart_by_number(request, month):
+    return HttpResponse(month)
+
+
 def monthly_chart(request, month):
     chart_text = None
     if month == 'january':
