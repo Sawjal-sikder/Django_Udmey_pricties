@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01450815-d9d6-4fb7-afcf-b9a924ccf708" name="Changes" comment="008 redrect_path Dynamic View Logic &amp; urls">
+    <list default="true" id="01450815-d9d6-4fb7-afcf-b9a924ccf708" name="Changes" comment="008 Adding More Dynamic View Logic &amp; urls with number">
+      <change afterPath="$PROJECT_DIR$/templates/chalenge.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy_practies/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_practies/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -27,22 +35,26 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Sawjal-sikder/Django_Udmey_pricties.git&quot;,
-    &quot;accountId&quot;: &quot;36992997-c2e4-450d-ae1a-1e98c3a81eff&quot;
+    &quot;accountId&quot;: &quot;f3adde4a-3e11-4b9b-a4d3-0c4f577da2fc&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2gTDPmlnA4dNw9vqRhg3cqma9ZD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project/udemy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Udamy/Django/Udemy&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -77,9 +89,9 @@
       <workItem from="1715715292081" duration="229000" />
       <workItem from="1715789701697" duration="652000" />
       <workItem from="1715883018182" duration="2818000" />
-      <workItem from="1716019803121" duration="35000" />
-      <workItem from="1716019860416" duration="51000" />
-      <workItem from="1716019913584" duration="1713000" />
+      <workItem from="1716060890747" duration="240000" />
+      <workItem from="1716061219311" duration="45000" />
+      <workItem from="1716061266396" duration="773000" />
     </task>
     <task id="LOCAL-00001" summary="03 - URLs &amp; Views ( 004 Creating a First View &amp; URL )">
       <option name="closed" value="true" />
@@ -160,7 +172,6 @@
     <MESSAGE value="2nd commit out of env" />
     <MESSAGE value="006 Dynamic Path Segments &amp; Captured Values" />
     <MESSAGE value="008 Adding More Dynamic View Logic &amp; urls" />
-    <MESSAGE value="008 redrect_path Dynamic View Logic &amp; urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="008 redrect_path Dynamic View Logic &amp; urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="008 Adding More Dynamic View Logic &amp; urls" />
   </component>
 </project>
