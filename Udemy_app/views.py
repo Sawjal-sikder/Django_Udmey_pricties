@@ -7,21 +7,31 @@ from django.shortcuts import render
 # Create your Chalengers.
 
 monthly_chalengers = {
-    "january" : "January is the first month of the year",
-    "february" : "February is the seceond month of the year",
-    "march" : "March is the first month of the year",
-    "april" : "April is the seceond month of the year",
-    "may" : "May is the first month of the year",
-    "june" : "June is the seceond month of the year",
-    "july" : "July is the first month of the year",
-    "august" : "August is the seceond month of the year",
-    "september" : "September is the first month of the year",
-    "october" : "October is the seceond month of the year",
-    "november" : "November is the seceond month of the year",
-    "december" : "December is the seceond month of the year",
+    "january" : "January is the 1st month of the year",
+    "february" : "February is the 2nd month of the year",
+    "march" : "March is the 3rd month of the year",
+    "april" : "April is the 4th month of the year",
+    "may" : "May is the first 5th of the year",
+    "june" : "June is the 6th month of the year",
+    "july" : "July is the 7th month of the year",
+    "august" : "August is the 8th month of the year",
+    "september" : "September is the 9th month of the year",
+    "october" : "October is the 10th month of the year",
+    "november" : "November is the 11 th month of the year",
+    "december" : "December is the 12th month of the year",
 }
 
 # Create your views here.
+
+def index(request):
+
+    list_months = ""
+    months = list(monthly_chalengers.keys())
+    for month in months:
+        month_path = reverse('monthly_chart', args=[month])
+        list_months += f" <a href=\"{month_path}\">{month}</a> "
+    response_data = f"<ul> {list_months} </ul> "
+    return HttpResponse(response_data)
 
 def monthly_chart_by_number(request, month):
     months = list(monthly_chalengers.keys())

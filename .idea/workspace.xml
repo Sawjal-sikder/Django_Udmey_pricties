@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01450815-d9d6-4fb7-afcf-b9a924ccf708" name="Changes" comment="008 redrect_path Dynamic View Logic &amp; urls">
+    <list default="true" id="01450815-d9d6-4fb7-afcf-b9a924ccf708" name="Changes" comment="redrect_path Dynamic View Logic &amp; urls">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_app/views.py" afterDir="false" />
@@ -79,7 +79,7 @@
       <workItem from="1715883018182" duration="2818000" />
       <workItem from="1716019803121" duration="35000" />
       <workItem from="1716019860416" duration="51000" />
-      <workItem from="1716019913584" duration="1713000" />
+      <workItem from="1716019913584" duration="3871000" />
     </task>
     <task id="LOCAL-00001" summary="03 - URLs &amp; Views ( 004 Creating a First View &amp; URL )">
       <option name="closed" value="true" />
@@ -137,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715887263687</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="redrect_path Dynamic View Logic &amp; urls">
+      <option name="closed" value="true" />
+      <created>1716021843175</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716021843175</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +169,7 @@
     <MESSAGE value="006 Dynamic Path Segments &amp; Captured Values" />
     <MESSAGE value="008 Adding More Dynamic View Logic &amp; urls" />
     <MESSAGE value="008 redrect_path Dynamic View Logic &amp; urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="008 redrect_path Dynamic View Logic &amp; urls" />
+    <MESSAGE value="redrect_path Dynamic View Logic &amp; urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="redrect_path Dynamic View Logic &amp; urls" />
   </component>
 </project>
