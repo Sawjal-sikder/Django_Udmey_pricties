@@ -24,13 +24,10 @@ monthly_chalengers = {
 # Create your views here.
 
 def index(request):
-    list_of_months = ""
+
     months = monthly_chalengers.keys()
-    for month in months:
-        month_path = reverse("monthly_chart", args=[month])
-        list_of_months += f"<a href=\'{month_path}\'> <li> {month.capitalize()} </li> </a>"
-    data_response = f'<ul class="list-group">{list_of_months}</ul>'
-    return HttpResponse(data_response)
+
+    return render(request, 'index.html', {'months': months})
 
 def monthly_chart_by_number(request, month):
     months = list(monthly_chalengers.keys())
