@@ -23,6 +23,15 @@ monthly_chalengers = {
 
 # Create your views here.
 
+def index(request):
+    list_of_months = ""
+    months = monthly_chalengers.keys()
+    for month in months:
+        month_path = reverse("monthly_chart", args=[month])
+        list_of_months += f"<a href=\'{month_path}\'> <li> {month.capitalize()} </li> </a>"
+    data_response = f'<ul class="list-group">{list_of_months}</ul>'
+    return HttpResponse(data_response)
+
 def monthly_chart_by_number(request, month):
     months = list(monthly_chalengers.keys())
     if month  > len(months):
@@ -36,6 +45,9 @@ def monthly_chart_by_number(request, month):
 def monthly_chart(request, month):
     try:
         chart_text = monthly_chalengers[month]
-        return HttpResponse(chart_text)
+        return render(request, 'chalenge.html', {
+            'chart_text': chart_text,
+            'month_name': month,
+        })
     except:
         return HttpResponseNotFound(f"{month} is incorrect in chart")
