@@ -1,5 +1,5 @@
 from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
-
+from django.urls import reverse
 
 from django.shortcuts import render
 
@@ -29,7 +29,8 @@ def monthly_chart_by_number(request, month):
         return HttpResponseNotFound(f"{month} is incorrect in chart")
     else:
         redrect_month = months[month - 1]
-        return HttpResponseRedirect("" + redrect_month)
+        redrect_path = reverse("monthly_chart", args=[redrect_month])
+        return HttpResponseRedirect(redrect_path)
 
 
 def monthly_chart(request, month):

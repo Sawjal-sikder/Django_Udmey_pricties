@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01450815-d9d6-4fb7-afcf-b9a924ccf708" name="Changes" comment="008 Adding More Dynamic View Logic &amp; urls">
+    <list default="true" id="01450815-d9d6-4fb7-afcf-b9a924ccf708" name="Changes" comment="008 redrect_path Dynamic View Logic &amp; urls">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_app/views.py" afterDir="false" />
@@ -27,7 +27,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Sawjal-sikder/Django_Udmey_pricties.git&quot;,
-    &quot;accountId&quot;: &quot;f3adde4a-3e11-4b9b-a4d3-0c4f577da2fc&quot;
+    &quot;accountId&quot;: &quot;36992997-c2e4-450d-ae1a-1e98c3a81eff&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -42,7 +42,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Django/New folder&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project/udemy&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -77,6 +77,9 @@
       <workItem from="1715715292081" duration="229000" />
       <workItem from="1715789701697" duration="652000" />
       <workItem from="1715883018182" duration="2818000" />
+      <workItem from="1716019803121" duration="35000" />
+      <workItem from="1716019860416" duration="51000" />
+      <workItem from="1716019913584" duration="1713000" />
     </task>
     <task id="LOCAL-00001" summary="03 - URLs &amp; Views ( 004 Creating a First View &amp; URL )">
       <option name="closed" value="true" />
@@ -157,6 +160,7 @@
     <MESSAGE value="2nd commit out of env" />
     <MESSAGE value="006 Dynamic Path Segments &amp; Captured Values" />
     <MESSAGE value="008 Adding More Dynamic View Logic &amp; urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="008 Adding More Dynamic View Logic &amp; urls" />
+    <MESSAGE value="008 redrect_path Dynamic View Logic &amp; urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="008 redrect_path Dynamic View Logic &amp; urls" />
   </component>
 </project>
