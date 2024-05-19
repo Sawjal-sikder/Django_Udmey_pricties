@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{month_name|title}} Chalenge</title>
-</head>
-<body>
-<h1>Chalenge month of {{month_name | title}} </h1>
-{% if chart_text is None %}
-    <h3>There is no Chalenge in this month</h3>
-{%else%}
-    <h3>{{ chart_text }}</h3>
-{% endif %}
-</body>
-</html>
+    {% extends 'base.html' %}
+
+    {% block page_title %}
+        {{month_name|title}} Chalenge
+    {% endblock %}
+
+
+{% block page_content %}
+    <h1>Chalenge month of {{month_name | title}} </h1>
+    {% if chart_text is None %}
+        <h3>There is no Chalenge in this month</h3>
+    {%else%}
+        <h3>{{ chart_text }}</h3>
+    {% endif %}
+{% endblock %}

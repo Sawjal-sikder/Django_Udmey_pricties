@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+{% block page_title %} Home {% endblock  %}
+
+{% block page_content %}
 <ul>
     {% for month in months %}
         <li> <a href="{% url "monthly_chart" month %}"> {{ month | title }} </a> </li>
     {% endfor %}
 </ul>
-</body>
-</html>
+{% endblock  %}
