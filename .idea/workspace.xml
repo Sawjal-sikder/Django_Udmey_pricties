@@ -4,17 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01450815-d9d6-4fb7-afcf-b9a924ccf708" name="Changes" comment="008 redrect_path Dynamic View Logic &amp; urls">
+    <list default="true" id="01450815-d9d6-4fb7-afcf-b9a924ccf708" name="Changes" comment="Template Inheritance">
+      <change afterPath="$PROJECT_DIR$/static/chalenge.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/include/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy_practies/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_practies/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/chalenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chalenge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="sawjal &lt;mdsajalsikder@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -24,35 +42,45 @@
     &quot;assignee&quot;: &quot;Sawjal-sikder&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Sawjal-sikder/Django_Udmey_pricties.git&quot;,
-    &quot;accountId&quot;: &quot;36992997-c2e4-450d-ae1a-1e98c3a81eff&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sawjal-sikder/Django_Udmey_pricties.git",
+    "accountId": "f3adde4a-3e11-4b9b-a4d3-0c4f577da2fc"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2gTDPmlnA4dNw9vqRhg3cqma9ZD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project/udemy&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Project/udemy",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Udamy\Django\Udemy\Udemy_app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Udamy\Django\Udemy\static" />
+      <recent name="E:\Udamy\Django\Udemy\static\chalenge" />
       <recent name="E:\Udamy\Django\Udemy\Udemy_app" />
     </key>
   </component>
@@ -80,6 +108,7 @@
       <workItem from="1716019803121" duration="35000" />
       <workItem from="1716019860416" duration="51000" />
       <workItem from="1716019913584" duration="1713000" />
+      <workItem from="1716141302329" duration="6744000" />
     </task>
     <task id="LOCAL-00001" summary="03 - URLs &amp; Views ( 004 Creating a First View &amp; URL )">
       <option name="closed" value="true" />
@@ -137,7 +166,39 @@
       <option name="project" value="LOCAL" />
       <updated>1715887263687</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Template &amp; Variable in filter">
+      <option name="closed" value="true" />
+      <created>1716063586916</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716063586916</updated>
+    </task>
+    <task id="LOCAL-00009" summary="The URL Tag for Dynamic URLs">
+      <option name="closed" value="true" />
+      <created>1716064946755</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716064946755</updated>
+    </task>
+    <task id="LOCAL-00010" summary="if Tag for Conditional Content">
+      <option name="closed" value="true" />
+      <created>1716142487364</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716142487364</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Template Inheritance">
+      <option name="closed" value="true" />
+      <created>1716143953129</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716143953129</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +222,10 @@
     <MESSAGE value="006 Dynamic Path Segments &amp; Captured Values" />
     <MESSAGE value="008 Adding More Dynamic View Logic &amp; urls" />
     <MESSAGE value="008 redrect_path Dynamic View Logic &amp; urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="008 redrect_path Dynamic View Logic &amp; urls" />
+    <MESSAGE value="Template &amp; Variable in filter" />
+    <MESSAGE value="The URL Tag for Dynamic URLs" />
+    <MESSAGE value="if Tag for Conditional Content" />
+    <MESSAGE value="Template Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template Inheritance" />
   </component>
 </project>
