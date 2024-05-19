@@ -18,7 +18,7 @@ monthly_chalengers = {
     "september" : "September is the first month of the year",
     "october" : "October is the seceond month of the year",
     "november" : "November is the seceond month of the year",
-    "december" : "December is the seceond month of the year",
+    "december" : None
 }
 
 # Create your views here.
