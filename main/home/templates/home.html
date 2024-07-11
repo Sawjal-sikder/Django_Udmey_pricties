@@ -8,7 +8,18 @@
 <h1>This is Class base form pages</h1>
 <form action="" method="POST">
   {% csrf_token %}
-  {{form}}
+  <div class="form_control {% if error_messages %} error {% endif %}">
+    <div>
+    {{ form.first_name.label_tag }}
+    {{ form.first_name }}
+    {{ form.first_name.error_messages }}
+    </div>
+  <div>
+    {{ form.last_name.label_tag }}
+    {{ form.last_name }}
+    {{ form.last_name.error_messages }}
+  </div>
+  </div>
   <button type="submit">insert</button>
 </form>
 </body>
