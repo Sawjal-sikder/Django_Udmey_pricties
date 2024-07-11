@@ -10,8 +10,8 @@ def home(request):
         if form.is_valid():
             print(form.cleaned_data)
             return redirect('success')
-
-    form = person
+    else:
+        form = person
     return render(request, 'home.html',{'form':form})
 
 def success(request):
