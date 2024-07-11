@@ -5,6 +5,11 @@
   <title>Home Pages</title>
 </head>
 <body>
-<h1>This is home pages</h1>
+<h1>This is Class base form pages</h1>
+<form action="" method="POST">
+  {% csrf_token %}
+  {{form}}
+  <button type="submit">insert</button>
+</form>
 </body>
 </html>
