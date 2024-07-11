@@ -3,24 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <title>Home Pages</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .form_control {
+      margin-bottom: 15px;
+    }
+    .form_control label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #333;
+    }
+    .form_control input,
+    .form_control textarea,
+    .form_control select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    .form_control.errors input,
+    .form_control.errors textarea,
+    .form_control.errors select {
+      border-color: #e74c3c;
+    }
+    .error {
+      color: #e74c3c;
+      font-size: 0.875em;
+      margin-top: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
 </head>
 <body>
-<h1>This is Class base form pages</h1>
+<h1>This is Class Based Form Pages</h1>
 <form action="" method="POST">
   {% csrf_token %}
-  <div class="form_control {% if error_messages %} error {% endif %}">
+  {% for field in form %}
+  <div class="form_control {% if field.errors %} errors {% endif %}">
     <div>
-    {{ form.first_name.label_tag }}
-    {{ form.first_name }}
-    {{ form.first_name.error_messages }}
+      {{ field.label_tag }}
+      {{ field }}
+      {% for error in field.errors %}
+        <div class="error">{{ error }}</div>
+      {% endfor %}
     </div>
-  <div>
-    {{ form.last_name.label_tag }}
-    {{ form.last_name }}
-    {{ form.last_name.error_messages }}
+  {% endfor %}
   </div>
-  </div>
-  <button type="submit">insert</button>
+  <button type="submit">Insert</button>
 </form>
 </body>
 </html>
