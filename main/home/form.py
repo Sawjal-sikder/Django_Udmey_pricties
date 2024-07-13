@@ -1,19 +1,30 @@
-from django import forms
+from django.forms import ModelForm, TextInput, Textarea
+from .models import personModel
+from django.utils.translation import gettext_lazy as _
 
-class person(forms.Form):
-    first_name = forms.CharField(
-        label="Your First Name",
-        max_length=55,
-        error_messages={
-            "required": "First name must not be empty!",
-            "max_length": "Please shorten your first name."
+# Create the form class.
+class person(ModelForm):
+    class Meta:
+        model = personModel
+        fields = "__all__"
+        # exclude = ['last_name']
+        labels = {
+            "first_name": _(""),
+            "last_name": _(""),
         }
-    )
-    last_name = forms.CharField(
-        label="Your Last Name",
-        max_length=55,
-        error_messages={
-            "required": "Last name must not be empty!",
-            "max_length": "Please shorten your last name."
+        help_texts = {
+            "first_name": _(""),
         }
-    )
+        error_messages = {
+            "first_name": {
+                "max_length": _("This writer's name is too long."),
+            },
+            "last_name": {
+                "max_length": _("This writer's name is too long."),
+            },
+        }
+        widgets = {
+            "first_name": TextInput(attrs={"class": "form_control", "placeholder": "Enter your first name" }),
+            "last_name": TextInput(attrs={"class": "form_control","placeholder": "Enter your last name" }),
+        }
+
