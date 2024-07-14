@@ -24,7 +24,7 @@ class person(ModelForm):
             },
         }
         widgets = {
-            "first_name": TextInput(attrs={"class": "form_control", "placeholder": "Enter your first name" }),
-            "last_name": TextInput(attrs={"class": "form_control","placeholder": "Enter your last name" }),
+            "first_name": TextInput(attrs={"class": "form-control", "placeholder": "Enter your first name" }),
+            "last_name": TextInput(attrs={"class": "form-control","placeholder": "Enter your last name" }),
         }
 
